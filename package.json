@@ -7,7 +7,6 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
-    "jest": "^27.0.6",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
@@ -17,7 +16,7 @@
   "scripts": {
     "start": "craco start",
     "build": "craco build",
-    "test": "jest",
+    "test": "craco test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
